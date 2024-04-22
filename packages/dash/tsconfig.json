@@ -1,0 +1,10 @@
+{
+  "extends": "tsconfig/base.json",
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "baseUrl": "./",
+    "outDir": "./dist"
+  },
+  "allowJs": true,
+  "include": ["!./src/custom.d.ts", "./src/**/*"],
+}
